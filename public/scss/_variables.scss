@@ -1,0 +1,15 @@
+$font1:'Noto Sans JP',Sans-serif;
+$font2:'Montserrat',sans-serif;
+$color1: #ec6302;
+$color2:#3EB489;
+$color3:#2E8BC0;
+$color4: #194e3b;
+
+
+@mixin global-transition {
+    transition: 0.2s ease-in-out, background-color 0.2s ease-out, color 0.1s ease-out, border 0.1s ease-out;
+  }
+
+.hidden {
+    display:none;
+}
